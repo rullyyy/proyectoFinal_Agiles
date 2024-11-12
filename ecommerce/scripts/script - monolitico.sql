@@ -1,3 +1,5 @@
+-- script monolitico
+
 drop database ecommerce;
 create database ecommerce;
 use ecommerce;
@@ -34,7 +36,6 @@ create table if not exists productos(
 
 create table if not exists pagos(
 	id bigint primary key,
-    metodoPago ENUM("PAGO EN OXXO", "TARJETA DE CREDITO/DEBITO", "PAYPAL") NOT NULL,
     monto float not null,
     idVenta bigint not null,
     foreign key(idVenta) references ventas(id)
