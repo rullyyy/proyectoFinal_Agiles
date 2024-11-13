@@ -15,6 +15,7 @@
   "homepage": "https://github.com/rullyyy/proyectoFinal_Agiles#readme",
   "dependencies": {
     "express": "^4.21.1",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "pg": "^8.13.1"
   }
 }
