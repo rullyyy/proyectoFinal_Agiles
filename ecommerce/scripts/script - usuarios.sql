@@ -1,0 +1,7 @@
+CREATE DATABASE ecommerceUsuarios;
+CREATE TABLE usuarios (
+  id BIGSERIAL PRIMARY KEY,
+  nombre VARCHAR(50) NOT NULL,
+  correo VARCHAR(30) NOT NULL UNIQUE,
+  password VARCHAR(30) NOT NULL
+);
