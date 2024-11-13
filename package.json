@@ -14,6 +14,7 @@
   "license": "ISC",
   "homepage": "https://github.com/rullyyy/proyectoFinal_Agiles#readme",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "mysql": "^2.18.1"
   }
 }
