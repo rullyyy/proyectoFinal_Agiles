@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+</head>
+<body>
+    <header>
+        <h1>Catálogo de productos</h1>
+    </header>
+    <div class="catalogo">
+        <% productos.forEach(producto => { %>
+            <div class="producto">
+                <img src="<%= producto.imagen %>" alt="<%= producto.nombre %>">
+                <div class="producto-detalles">
+                    <h2 class="producto-nombre"><%= producto.nombre %></h2>
+                    <p class="producto-descripcion"><%= producto.descripcion %></p>
+                    <p class="producto-precio">$<%= producto.precio.toFixed(2) %></p>
+                </div>
+            </div>
+        <% }); %>
+    </div>
+</body>
+</html>
