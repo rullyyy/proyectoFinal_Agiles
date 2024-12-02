@@ -9,5 +9,8 @@ docker-compose up --d
 ### Comando para verificar el estado de los contenedores
 docker-compose ps
 
-### Comando para detener los contenedores
+### Comando para eliminar los contenedores
 docker-compose down
+
+### Comando para detener 
+docker-compose stop
