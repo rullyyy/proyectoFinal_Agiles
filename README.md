@@ -1,5 +1,9 @@
 # proyectoFinal_Agiles
-Proyecto final para la materia de Métodos Ágiles
+Proyecto final para la materia de Métodos Ágiles, los integrantes del equipo son:
+- Diego Chinchillas Alvarez
+- Luis Enrique Contreras Peraza
+- Manuel Francisco Flores Velazquez
+- Jesus Raul Luna Bringas
 
 # Comandos contenedores Docker
 Ejecuta los siguientes comandos, desde la carpeta principal, según las necesidades
