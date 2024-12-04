@@ -1,0 +1,8 @@
+.card img{
+    width: 10vw;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+}
